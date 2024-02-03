@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    color: black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: 3rem 1fr 3rem;
+}
+
+header{
+    grid-area: header;
+    line-height: 4rem;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    grid-area: nav;
+    line-height: 4rem;
+    background-color: rgb(196, 193, 193);
+    padding: 0 1.5rem;
+    min-height: 100vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    line-height: 1.5rem;
+}
+
+nav ul li{
+    margin: 0px;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(235, 235, 235);
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    min-height: 20rem;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.card img{
+    display: flex;
+    max-width: 100%;
+    margin: 0.5;
+    border: solid transparent 5px;
+
+}
+
+.card .btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 60px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+h5{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+footer{
+    grid-area: footer;
+    background-color: gray;
+    text-align: center;
+    color:white;
+    
+    
+}
