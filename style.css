@@ -11,6 +11,7 @@ body{
     "footer footer";
     grid-template-columns: 10rem 1fr;
     grid-template-rows: 3rem 1fr 3rem;
+    
 }
 
 header{
@@ -32,7 +33,7 @@ nav{
 nav ul{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 10px;
     line-height: 1.5rem;
 }
 
@@ -47,6 +48,7 @@ main{
 
 h2{
     font-size: 1.2rem;
+    padding-top: 50px;
 }
 
 .card{
@@ -56,6 +58,7 @@ h2{
     flex-direction: column;
     flex-grow: 1;
     text-align: center;
+    
 }
 
 .card img{
@@ -63,22 +66,19 @@ h2{
     max-width: 100%;
     margin: 0.5;
     border: solid transparent 5px;
+    
 
 }
 
-.card .btn{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    width: 60px;
-    
+.btn{
+    padding-left: 30px;
 }
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    padding: 150px;
 }
 
 h5{
@@ -93,6 +93,7 @@ footer{
     background-color: gray;
     text-align: center;
     color:white;
+    
     
     
 }
